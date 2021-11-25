@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import dayjs from "dayjs";
 import Alert from "./Alert";
+import "../../styles/Alerts.css";
 const AlertsSection = ({ portfolio }) => {
   const [weekAlerts, setWeekAlerts] = useState([]);
   const [dayAlerts, setDayAlerts] = useState([]);

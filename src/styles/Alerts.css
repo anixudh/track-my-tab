@@ -1,0 +1,23 @@
+.alert-name {
+  width: 400px;
+}
+.day-alerts {
+  background-color: rgb(253, 47, 47);
+  border: 1px solid white;
+  border-radius: 5%;
+  margin: 20px;
+  padding: 20px;
+}
+.alert {
+  border: 1px solid black;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.weekly-alerts {
+  background-color: rgb(170, 138, 34);
+  border: 1px solid white;
+  border-radius: 5%;
+  margin: 20px;
+  padding: 20px;
+}

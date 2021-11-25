@@ -1,4 +1,8 @@
 .card-section {
   display: flex;
   justify-content: space-evenly;
+  border: 1px solid black;
+  background-color: cadetblue;
+  width: 90%;
+  align-items: center;
 }
