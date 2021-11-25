@@ -1,5 +1,5 @@
 import CardSection from "./Cards/CardSection";
-import Alerts from "./Alerts";
+import AlertsSection from "./Alerts/AlertsSection";
 import { AiOutlinePlusCircle } from "react-icons/ai";
 import { Link } from "react-router-dom";
 const Home = ({ portfolio, removeDrugCard }) => {
@@ -16,9 +16,7 @@ const Home = ({ portfolio, removeDrugCard }) => {
         <AiOutlinePlusCircle size={60} />
       </Link>
 
-      <div className="alerts-section">
-        <Alerts portfolio={portfolio} />
-      </div>
+      <AlertsSection portfolio={portfolio} />
     </div>
   );
 };
