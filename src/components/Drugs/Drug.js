@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import "../../styles/Drug.css";
 const Drug = ({ drug, setCurrentDrug }) => {
   return (
     <Link to={`/browse/${drug.rxcui}`}>

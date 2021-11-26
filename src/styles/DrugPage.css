@@ -9,6 +9,7 @@
   font-size: 16px;
   border-radius: 8px;
   text-align: center;
+  cursor: pointer;
 }
 .close-form {
   background-color: #e66771;
@@ -21,6 +22,7 @@
   font-size: 16px;
   border-radius: 8px;
   text-align: center;
+  cursor: pointer;
 }
 
 .add-to-portfolio {
@@ -35,6 +37,7 @@
   border-radius: 8px;
   text-align: center;
   margin-right: 10px;
+  cursor: pointer;
 }
 .portfolio-form {
   text-align: center;
@@ -50,4 +53,10 @@
   font-size: 20px;
   height: 20px;
   margin-bottom: 15px;
+}
+
+.drug-details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }

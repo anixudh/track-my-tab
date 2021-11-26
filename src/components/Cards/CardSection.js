@@ -1,5 +1,5 @@
 import Card from "./Card";
-import { AiOutlinePlusCircle } from "react-icons/ai";
+import { FcPlus } from "react-icons/fc";
 import { Link } from "react-router-dom";
 import "../../styles/CardSection.css";
 const CardSection = ({ portfolio, removeDrugCard }) => {
@@ -11,7 +11,7 @@ const CardSection = ({ portfolio, removeDrugCard }) => {
         );
       })}
       <Link to="/browse/">
-        <AiOutlinePlusCircle size={60} />
+        <FcPlus size={60} />
       </Link>
     </div>
   );

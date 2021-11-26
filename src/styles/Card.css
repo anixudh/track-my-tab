@@ -12,3 +12,16 @@
   margin: 30px;
   box-shadow: 0.5rem 0.5rem, -0.5rem -0.5rem rgba(0, 0, 0, 0.452);
 }
+.remove-drug-card {
+  background-color: #e66771;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  border-radius: 6px;
+  text-align: center;
+  cursor: pointer;
+}

@@ -1,0 +1,13 @@
+.drug {
+  border: 2px solid black;
+  padding: 15px;
+  margin: 10px;
+  width: 400px;
+  background-color: white;
+  box-shadow: 10px 10px 5px rgb(77, 77, 77);
+  border-radius: 5%;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
