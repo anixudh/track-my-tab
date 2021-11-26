@@ -4,6 +4,7 @@ import Browse from "./components/Browse";
 import Nav from "./components/Nav";
 import DrugPage from "./components/Drugs/DrugPage";
 import { useState } from "react";
+import App from "./App";
 const RouterSwitch = () => {
   const [currentDrug, setCurrentDrug] = useState({});
   const [portfolio, setPortfolio] = useState([]);
@@ -33,9 +34,9 @@ const RouterSwitch = () => {
   };
   return (
     <BrowserRouter>
-      <Nav />
       <Routes>
-        <Route path="/" element={<Home portfolio={portfolio} />} />
+        <Route path="/login" element={<App />} />
+        <Route path="/" element={<App />} />
         <Route
           path="/home"
           element={

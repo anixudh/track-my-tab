@@ -3,6 +3,7 @@ import Drug from "./Drugs/Drug";
 import { AiOutlineSearch } from "react-icons/ai";
 import "../styles/Browse.css";
 import Loading from "./Loading";
+import Nav from "./Nav";
 const Browse = ({ setCurrentDrug }) => {
   const [drugName, setDrugName] = useState();
   const [drugInfo, setDrugInfo] = useState([]);
@@ -37,6 +38,7 @@ const Browse = ({ setCurrentDrug }) => {
 
   return (
     <div className="browse-page">
+      <Nav />
       <h1> Enter Medicine Name </h1>
       <div className="search">
         <input
