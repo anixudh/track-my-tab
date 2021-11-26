@@ -5,8 +5,8 @@ A medicine tracking app that has been developed during CSI Hackathon <br />
 ## Getting started
 
 ```
-git clone https://github.com/anixudh/shopping-cart.git
-cd shopping-cart
+git clone https://github.com/anixudh/track-my-tab.git
+cd track-my-tab
 npm install
 npm start
 ```
