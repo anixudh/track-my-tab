@@ -1,0 +1,53 @@
+.open-form {
+  background-color: #4caf50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 8px;
+  text-align: center;
+}
+.close-form {
+  background-color: #e66771;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.add-to-portfolio {
+  background-color: #4caf50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 8px;
+  text-align: center;
+  margin-right: 10px;
+}
+.portfolio-form {
+  text-align: center;
+}
+
+.medicine-duration-form,
+.daily-dosage-form {
+  background-color: white;
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  padding-left: 40px;
+  transition: width 1s ease-in-out;
+  font-size: 20px;
+  height: 20px;
+  margin-bottom: 15px;
+}

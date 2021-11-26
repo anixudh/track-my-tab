@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import Drug from "./Drugs/Drug";
-
+import { AiOutlineSearch } from "react-icons/ai";
+import "../styles/Browse.css";
 const Browse = ({ setCurrentDrug }) => {
   const [drugName, setDrugName] = useState();
   const [drugInfo, setDrugInfo] = useState([]);
@@ -25,13 +26,18 @@ const Browse = ({ setCurrentDrug }) => {
 
   return (
     <div className="browse-page">
-      <h1> This is browse! </h1>
-      <input
-        type="text"
-        className="search-med-name"
-        onChange={updateDrugName}
-      />
-      <button onClick={getMedicine}>Submit</button>
+      <h1> Enter Medicine Name </h1>
+      <div className="search">
+        <input
+          type="text"
+          className="search-med-name"
+          onChange={updateDrugName}
+        />
+        <br></br>
+        <button className="submit-button" onClick={getMedicine}>
+          Submit
+        </button>
+      </div>
       {submitClicked ? (
         <div className="med-info">
           {drugInfo.map((drug) => {
